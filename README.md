@@ -1,74 +1,105 @@
-# golfy_pal
-Final project for the Building AI course
+# Golfy Pal  
+Building AI course project
+*Your AI-powered golfing companion*
 
-## Summary
+## Summary  
 
-Describe briefly in 2-3 sentences what your project is about. About 250 characters is a nice length! 
+**Golfy Pal** is an intelligent digital assistant for golfers — your personal caddie, rules expert, and handicap advisor in one. It helps players understand golf rules, calculate handicaps under the World Handicap System, track performance, and learn fun facts about the game.   
+Building AI course project
+---
 
+## Background  
 
-## Background
+Golf can be complicated for new and even experienced players. From understanding obscure rules to tracking handicaps and interpreting course ratings, there’s a lot to remember — especially during play.  
 
-Which problems does your idea solve? How common or frequent is this problem? What is your personal motivation? Why is this topic important or interesting?
+**Problems Golfy Pal addresses:**  
+* Confusion about golf rules in specific game situations  
+* Manual or inconsistent handicap calculations  
+* Lack of personalized learning and performance insights  
+* Difficulty finding trusted golf-related information quickly  
 
-This is how you make a list, if you need one:
-* problem 1
-* problem 2
-* etc.
+I’ve spent years on the golf course and have seen players struggle with these same questions. Golfy Pal is my attempt to combine my passion for the game with the power of AI — making golf more accessible, fair, and fun for everyone.  
 
+---
 
-## How is it used?
+## How is it used?  
 
-Describe the process of using the solution. In what kind situations is the solution needed (environment, time, etc.)? Who are the users, what kinds of needs should be taken into account?
+Golfy Pal can be used on a smartphone or smartwatch during play or practice. Players can ask questions like:  
+> “What’s the ruling if my ball lands in a water hazard?”  
+> “What’s my course handicap at Gävle Golfbana from the white tees?”  
+> “Give me a fun golf fact to share with my friends.”  
 
-Images will make your README look nice!
-Once you upload an image to your repository, you can link link to it like this (replace the URL with file path, if you've uploaded an image to Github.)
-![Cat](https://upload.wikimedia.org/wikipedia/commons/5/5e/Sleeping_cat_on_her_back.jpg)
+**Typical users:**  
+* Amateur golfers  
+* Golf club managers and coaches  
+* New players learning the game  
 
-If you need to resize images, you have to use an HTML tag, like this:
-<img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Sleeping_cat_on_her_back.jpg" width="300">
-
-This is how you create code examples:
-```
-def main():
-   countries = ['Denmark', 'Finland', 'Iceland', 'Norway', 'Sweden']
-   pop = [5615000, 5439000, 324000, 5080000, 9609000]   # not actually needed in this exercise...
-   fishers = [1891, 2652, 3800, 11611, 1757]
-
-   totPop = sum(pop)
-   totFish = sum(fishers)
-
-   # write your solution here
-
-   for i in range(len(countries)):
-      print("%s %.2f%%" % (countries[i], 100.0))    # current just prints 100%
-
-main()
+**Usage context:**  
+* On the course — quick rules or distance checks  
+* At home — tracking stats or adjusting handicaps  
+* In training — learning golf etiquette and rules through quizzes 
 ```
 
 
-## Data sources and AI methods
-Where does your data come from? Do you collect it yourself or do you use data collected by someone else?
-If you need to use links, here's an example:
-[Twitter API](https://developer.twitter.com/en/docs)
+## Data sources and AI methods  
 
-| Syntax      | Description |
-| ----------- | ----------- |
-| Header      | Title       |
-| Paragraph   | Text        |
+**Data sources:**  
+* [USGA & R&A Rules of Golf Database](https://www.randa.org/)  
+* [World Handicap System guidelines](https://www.whs.com/)  
+* Historical golf data (tournament stats, course ratings, slope indexes)  
+* User-provided round statistics and performance logs  
 
-## Challenges
+**AI methods used:**  
+* Natural Language Processing (for understanding golf-related questions)  
+* Knowledge graph or fine-tuned LLM for golf rules and facts  
+* Simple regression or scoring model for handicap calculations  
+* Recommendation engine for tips and game improvement suggestions  
 
-What does your project _not_ solve? Which limitations and ethical considerations should be taken into account when deploying a solution like this?
+| Component | Description |
+| ---------- | ------------ |
+| NLP engine | Interprets player questions and contexts |
+| Rule base | Contains official rule explanations |
+| Handicap model | Computes course and playing handicaps |
+| Learning module | Suggests rules or strategies based on play data |
 
-## What next?
+---
 
-How could your project grow and become something even more? What kind of skills, what kind of assistance would you  need to move on? 
+## Challenges  
 
+Golfy Pal won’t replace human judgment or official rulings. It’s designed for guidance, not enforcement.  
 
-## Acknowledgments
+**Limitations:**  
+* Rule interpretations depend on accurate user input  
+* Course data must be up to date for precise handicap calculations  
+* Requires internet access for AI features  
 
-* list here the sources of inspiration 
-* do not use code, images, data etc. from others without permission
-* when you have permission to use other people's materials, always mention the original creator and the open source / Creative Commons licence they've used
-  <br>For example: [Sleeping Cat on Her Back by Umberto Salvagnin](https://commons.wikimedia.org/wiki/File:Sleeping_cat_on_her_back.jpg#filelinks) / [CC BY 2.0](https://creativecommons.org/licenses/by/2.0)
-* etc
+**Ethical considerations:**  
+* Ensuring transparency in how handicaps are calculated  
+* Avoiding unfair advantages in competitive settings  
+* Respecting data privacy for users’ performance history  
+
+---
+
+## What next?  
+
+In the future, Golfy Pal could evolve into a **fully integrated golf assistant**:  
+* Voice-activated companion integrated with GPS and shot tracking  
+* AR overlays for course navigation and green reading  
+* Integration with official handicap databases (e.g., Golf Genius, Min Golf)  
+* Community features to share stats and compete with friends  
+
+To move forward, I’d need:  
+* Access to official course and slope data  
+* Collaboration with local golf associations  
+* Developers with experience in NLP and mobile app design  
+
+---
+
+## Acknowledgments  
+
+* [USGA & R&A Rules of Golf](https://www.randa.org/en/rules/rules-of-golf)  
+* [World Handicap System](https://www.whs.com/)  
+* Inspiration from fellow golfers at **Gävle Golfbana**  
+* AI course materials by [Reaktor Innovations](https://www.reaktor.com/) and [University of Helsinki](https://www.helsinki.fi/en)  
+
+---
