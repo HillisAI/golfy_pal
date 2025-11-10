@@ -32,7 +32,7 @@ Golfy Pal can be used on a smartphone or smartwatch during play or practice. Pla
 **Typical users:**  
 * Amateur golfers  
 * Golf club managers and coaches  
-* New players learning the game  
+* New players learning the game 
 
 **Usage context:**  
 * On the course — quick rules or distance checks  
